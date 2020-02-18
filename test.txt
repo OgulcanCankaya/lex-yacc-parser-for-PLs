@@ -1,0 +1,82 @@
+fdef int main(){
+    /*BASIC DEF*/
+
+    int a = 13;
+    int _aa = 5;
+    int a_aa = 9;
+    str b = "Berkan";
+    str c = 'berkan'; 
+    dbl d = 13.345;
+    flt f = 13.3;
+    bool z = yannis;
+    bool not_z = !yannis;
+    bool Conditional_definition = _aa >= a;
+
+    arr int numbers #20;
+    arr str names #20;
+    arr user users #10;  
+    arr dbl scores #12;
+    graph my_graph;  
+
+    /* FOR */
+    
+    int i = 20;
+    int a =0;
+    for(i=0; i<=29 ; i++){}
+    for( i=0; i<=20 ; i+=2){}
+    for( i=0; i<=20;i= i+ 2){}
+    for( i=20; i>=0 ; i--){}
+    
+    /*WHILE*/
+    
+    while(d0ru){}
+    while(!yannis){}
+
+    while( ( ( (a + _aa <= a_aa) && z) || (d < 14.000) ) ){
+        display(_aa); 
+        _aa++;
+    }
+    
+    if(a + _aa < 20 && not_z){
+        display("In if Case!");
+    }
+    if(z != not_z) {
+        display("In else Case - 1");
+    }
+
+    if(a_aa < 10 || !z){
+        display("In else Case - 1");
+    }else{
+        display("WTF Bro !");
+    }
+
+    display (i);
+
+    if(a + _aa < 20 && not_z){
+        display("In if Case!");
+    }
+
+    if(z != not_z) {
+        display("In else Case - 1");
+    }
+}
+
+/*DECLARE FUNCTIONS*/
+
+fdef int getbigger() {
+    if(num1 >= num2){
+        return num1;
+    }else{
+        return num2;
+    }
+}
+
+fdef int error(str error_message, int a){
+    display("Something went wrong! Error is; %s", error_message);
+    return 1;
+}
+
+fdef bool error(warning_message){
+    display("Something not perfect bro! Check this warning; %s", warning_message);
+    return d0ru;
+}
